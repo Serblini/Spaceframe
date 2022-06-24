@@ -36,14 +36,14 @@ const NavBars = observer(() => {
   const [value, setValue] = useState("");
   const [isOpen, setIsOpen] = useState(true);
 
-  useEffect(() => {
-    console.log(`user.user.role : ${user.user.role}`);
+//   useEffect(() => {
+//     console.log(`user.user.role : ${user.user.role}`);
 
-    console.log(`user.isAuth : ${user.isAuth}`);
-    if (formEl && formEl.current) {
-      formEl.current.addEventListener("keydown", clearClickEnter);
-    }
-  }, []);
+//     console.log(`user.isAuth : ${user.isAuth}`);
+//     if (formEl && formEl.current) {
+//       formEl.current.addEventListener("keydown", clearClickEnter);
+//     }
+//   }, []);
 
  
 
