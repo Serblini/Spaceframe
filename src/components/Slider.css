@@ -1,0 +1,43 @@
+.slide-line{
+    display: none;
+height: 5px;
+    background-color: #343a40;
+    width: 0%;
+    border: 2px groove #343A40;
+    border-radius: 0px 0px 10px 0px;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {
+        width: 5%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.carousel-item{
+    transition: transform .5s;
+}
+
+.carousel-indicators button {
+    width: 0.4rem !important;
+    height: 0.4rem !important;
+    border-radius: 50%;
+}
+
+.carousel-indicators button:not(:first-child) {
+    margin-left: 0.5rem;
+}
+
+.carousel-indicators .active {
+    background-color: #ff7a54;
+}
+
+.Captions{
+    color: #fff;
+        font-size: xxx-large;
+        text-shadow: 2px 2px 2px #000;
+}
